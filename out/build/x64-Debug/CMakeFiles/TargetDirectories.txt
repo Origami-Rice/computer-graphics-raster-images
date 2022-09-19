@@ -1,0 +1,3 @@
+C:/Users/willi/UofT/Y4S2/CSC317/computer-graphics-raster-images/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/willi/UofT/Y4S2/CSC317/computer-graphics-raster-images/out/build/x64-Debug/CMakeFiles/raster.dir
+C:/Users/willi/UofT/Y4S2/CSC317/computer-graphics-raster-images/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

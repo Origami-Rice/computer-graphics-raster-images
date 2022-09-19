@@ -11,4 +11,20 @@ void rotate(
   ////////////////////////////////////////////////////////////////////////////
   // Add your code here
   ////////////////////////////////////////////////////////////////////////////
+
+  if (num_channels == 1) {
+      for (int i = 0; i < height; i++) {
+          for (int j = 0; j < width; j++) {
+              rotated[(width - 1 - j) * (height)+i] = input[i * (width)+j];
+          }
+      }
+  } else if (num_channels == 3){
+      for (int i = 0; i < height; i++) {
+          for (int j = 0; j < width; j++) {
+              rotated[(width - 1 - j) * (height) * 3 + i * 3] = input[i * (width) * 3 + j * 3];
+              rotated[(width - 1 - j) * (height) * 3 + i * 3 + 1] = input[i * (width) * 3 + j * 3 + 1];
+              rotated[(width - 1 - j) * (height) * 3 + i * 3 + 2] = input[i * (width) * 3 + j * 3 + 2];
+          }
+      }
+  }
 }
